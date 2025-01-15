@@ -67,6 +67,24 @@ h1, h2, h3, h4, p, small, b, i {
     color: #384242;
 }
 
+a:not(nav a) {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #61B3B3;
+    text-decoration: none;
+}
+
+a:not(nav a):hover {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: #F3A053;
+}
+
+
 /* ===== Colour Palette ===== */
 body {
     background-color: #F8F3EC;
