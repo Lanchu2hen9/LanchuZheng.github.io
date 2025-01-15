@@ -75,6 +75,11 @@ body {
 /* ===== NavBar ===== */
 nav {
     background-color: #384242;
+    width: 100%;
+    position: fixed;
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    z-index: 1000;
 }
 
 .nav {
@@ -82,6 +87,7 @@ nav {
     padding: 0;
     margin: 0;
     display: flex;
+    width: 100%; 
 }
 
 .nav > li {
@@ -97,6 +103,7 @@ nav {
 
 .nav > li > a:hover {
     background-color: #61B3B3;
+    /* The hovering effect of the work tab is still a bit weird: width: 45px;*/
 }
 
 .dropdown-menu {
@@ -120,6 +127,7 @@ nav {
 
 .dropdown-menu > li > a:hover {
     background-color: #61B3B3;
+    padding: 15px 20px;
 }
 
 /* Show the drop-down menu on hover */

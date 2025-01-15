@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>design.html</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+</head>
+<!---->
+<style>
+    .row{
+        width:720px;
+        margin: 15px auto 15px auto ;
+    }
+    .image-container {
+        display: table-cell;
+        vertical-align: middle;
+        padding:25px;
+    }
+</style>
+<!--body style is the background colour of the website.-->
+<!--div class="row" is the parent div, and whereas <div class="image-container"... is the child div-->
+</head>
+    <body style="background-color:#e6e6f6">
+        <div class="row">
+            <div class="image-container"><img id="home" src="img/Home Icon 2-B.png" onmouseover="this.src='img/Home Icon 2-H.png';" onmouseout= "this.src='img/Home Icon 2-B.png';" height="200" width="200"/></div>
+            <div class="image-container"><img id="phone" src="img/Phone 2 Icon-B.png" onmouseover="this.src='img/Phone 2 Icon-H.png';" onmouseout="this.src='img/Phone 2 Icon-B.png';" height="200" width="200"/></div>
+            <div class="image-container"><img id="letter" src="img/email_icon-b.png" onmouseover="this.src='img/email_icon-h.png';"onmouseout="this.src='img/email_icon-b.png';" height="250" width="250"/></div>
+        </div>
+        <div class="row">
+            <div class="image-container"><img id="shop" src="img/Shop 2 Icon-B.png" onmouseover="this.src='img/Shop 2 Icon-H.png';" onmouseout= "this.src='img/Shop 2 Icon-B.png';" height="200" width="200"/></div>
+            <div class="image-container"><img id="will" src="img/Will Icon-B.png" onmouseover="this.src='img/Will Icon-H.png';" onmouseout= "this.src='img/Will Icon-B.png';" height="200" width="200"/></div>
+            <div class="image-container"><img id="openings" src="img/Opening 2 Icon-B.png" onmouseover="this.src='img/Opening 2 Icon-H.png';" onmouseout= "this.src='img/Opening 2 Icon-B.png';" height="200" width="200"/></div>
+            </div>
+
+        <div class="row">
+            <div class="image-container"><img id="graveweaver" src="img/Grave Icon-B.png" onmouseover="this.src='img/Grave Icon-H.png';" onmouseout= "this.src='img/Grave Icon-B.png';" height="200" width="200"/></div>
+            <div class="image-container"><img id="socials" src="img/Socials Icon 2-B.png" onmouseover="this.src='img/Socials Icon 2-H.png';" onmouseout= "this.src='img/Socials Icon 2-B.png';" height="200" width="210"/></div>
+            <div class="image-container"><img id="live" src="img/Live Chat 2 Icon- B.png" onmouseover="this.src='img/Live Chat 4 icon-H.png';" onmouseout= "this.src='img/Live Chat 2 Icon- B.png';" height="200" width="200"/></div>
+        </div>
+        <script>
+            var sound1 = new buzz.sound("sound/Home Button Icon Sound.mp3");
+            var sound2 = new buzz.sound("sound/Phone Icon Sound.mp3");
+            var sound3 = new buzz.sound("sound/Email Icon-R.mp3");
+            var sound4 = new buzz.sound("sound/Gift-Shop Icon Icon.mp3");
+            var sound5 = new buzz.sound("sound/Will Icon Sound.mp3");
+            var sound6 = new buzz.sound("sound/Openings Icon Sound.mp3");
+            var sound7 = new buzz.sound("sound/Grave Icon Sound.mp3");
+            var sound8 = new buzz.sound("sound/Socials Vibration.mp3");
+            var sound9 = new buzz.sound("sound/Live Chat Sound.mp3");
+    window.onload = function(){
+        document.getElementById('home').addEventListener('click', function () {sound1.play("Home Button Icon Sound.mp3"); });
+        document.getElementById('phone').addEventListener('click', function () {sound2.play("Phone Icon Sound.mp3"); });
+        document.getElementById('letter').addEventListener('click', function () {sound3.play("Email Icon-R.mp3"); });
+        document.getElementById('shop').addEventListener('click', function () {sound4.play("Gift-Shop Icon Icon.mp3"); });
+        document.getElementById('will').addEventListener('click', function () {sound5.play("Will Icon Sound.mp3"); });
+        document.getElementById('openings').addEventListener('click', function () {sound6.play("Openings Icon Sound.mp3"); });
+        document.getElementById('graveweaver').addEventListener('click', function () {sound7.play("Grave Icon Sound.mp3"); });
+        document.getElementById('socials').addEventListener('click', function () {sound8.play("Socials Vibration.mp3"); });
+        document.getElementById('live').addEventListener('click', function () {sound9.play("Live Chat Sound.mp3"); });
+        }
+    </script>
+</html>
