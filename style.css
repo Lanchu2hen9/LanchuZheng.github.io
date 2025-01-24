@@ -141,8 +141,13 @@ ul:not(.nav) ul {
 }
 /* ===== Colour Palette ===== */
 body {
-  margin-top: 65px;
   background-color: #f8f3ec;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* ===== NavBar ===== */
@@ -206,4 +211,41 @@ nav {
 /* Show the drop-down menu on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #384242;
+  width: 100%;
+  position: static;
+  bottom: 0; /* Align to bottom */
+  left: 0; /* Align to left */
+  right: 0; /* Align to right */
+  padding: 5px 0; /* Add some padding for content */
+  text-align: center; /* Center the text */
+}
+
+.back-to-top {
+  margin: 15px;
+  padding: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+.ftext {
+  text-decoration: none;
+  color: #f8f3ec;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 12.8px;
+}
+
+.ftext:hover {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12.8px;
+  color: #61b3b3;
 }
