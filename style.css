@@ -144,6 +144,10 @@ body {
   background-color: #f8f3ec;
 }
 
+header {
+  margin-bottom: 65px;
+}
+
 html,
 body {
   margin: 0;
@@ -163,7 +167,7 @@ nav {
 .nav {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: -1.5px;
   display: flex;
   width: 100%;
 }
@@ -176,7 +180,8 @@ nav {
   display: block;
   color: #f8f3ec;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 20px 20px;
+  margin: 0;
 }
 
 .nav > li > a:hover {
@@ -190,7 +195,7 @@ nav {
   margin: 0;
   display: none; /* Initially hidden */
   position: absolute;
-  top: 100%; /* Align below the parent menu */
+  top: 97%; /* Align below the parent menu */
   left: 0;
   background-color: #e8dfd7;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -200,12 +205,22 @@ nav {
   display: block;
   color: #343d3d;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 15px 15px;
+}
+
+.dropdown > .NormTab {
+  background-color: #394242;
+  padding: 20px 25px;
+}
+
+.dropdown > a:hover {
+  background-color: #61b3b3;
+  padding: 20px 25px;
 }
 
 .dropdown-menu > li > a:hover {
   background-color: #61b3b3;
-  padding: 15px 20px;
+  padding: 15px 15px;
 }
 
 /* Show the drop-down menu on hover */
