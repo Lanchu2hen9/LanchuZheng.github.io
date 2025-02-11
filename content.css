@@ -1,0 +1,18 @@
+.HomeBtn {
+  width: 60px;
+  height: 60px;
+  background: #61b3b3;
+  border-radius: 9999px;
+  position: relative;
+  z-index: 12;
+
+  top: 30px;
+  left: 6px;
+}
+
+.HomeIcon {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

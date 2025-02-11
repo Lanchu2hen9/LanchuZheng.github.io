@@ -157,7 +157,7 @@ nav {
   position: fixed;
   top: 0; /* Align to top */
   left: 0; /* Align to left */
-  z-index: 1000;
+  z-index: 10;
 }
 
 .nav {
