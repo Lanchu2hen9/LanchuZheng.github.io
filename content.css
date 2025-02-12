@@ -1,3 +1,4 @@
+/*===Nav Bar Content===*/
 .HomeBtn {
   margin-right: 15px;
   width: 60px;
@@ -11,9 +12,100 @@
   left: 7px;
 }
 
+.HomeBtn:hover {
+  box-shadow: 0px 16px 10.699999809265137px rgba(52, 61, 61, 0.25) inset;
+}
+
 .HomeIcon {
   position: absolute;
   top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.ResumeBtn {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  background: #61b3b3;
+  border-radius: 9999px;
+  position: relative;
+  z-index: 12;
+
+  top: 25px;
+  left: 7px;
+}
+
+.ResumeBtn:hover {
+  box-shadow: 0px 16px 10.699999809265137px rgba(52, 61, 61, 0.25) inset;
+}
+
+.ResumeIcon {
+  position: absolute;
+  top: 53%;
+  left: 60%;
+  transform: translate(-54%, -50%);
+}
+
+.ResumeBtnText {
+  color: #f8f3ec;
+  font-size: 12px;
+
+  position: relative;
+  top: -4px;
+  left: -12%;
+}
+
+.ResumeBtn > a {
+  text-decoration: none;
+}
+
+/*===Footer Content===*/
+.FooterHeader {
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 7px;
+  color: #f8f3ec;
+
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.PhoneNo {
+  position: relative;
+}
+
+.PhoneIcon {
+  left: 43.5%;
+  top: 0px;
+  position: absolute;
+}
+
+.PhoneNoText {
+  color: #f8f3ec;
+  font-size: 12.8px;
+}
+
+.Email {
+  position: relative;
+  margin-top: 5px;
+}
+
+.EmailIcon {
+  left: 40.5%;
+  top: 0px;
+  position: absolute;
+}
+
+.EmailText {
+  color: #f8f3ec;
+  font-size: 12.8px;
+}
+
+.FooterLine {
+  position: absolute;
+  left: 48.5%;
+  margin-top: 3px;
 }
