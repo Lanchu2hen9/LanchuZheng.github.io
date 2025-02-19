@@ -109,3 +109,15 @@
   left: 48.5%;
   margin-top: 3px;
 }
+
+/*===Splash Image Content===*/
+.splash-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  object-fit: cover;
+}
