@@ -111,7 +111,13 @@
 }
 
 /*===Splash Image Content===*/
-.splash-image {
+.SplashImgBackground {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/indeximages/SplashScreenBackground.jpg");
+  object-fit: fill;
+  background-repeat: no-repeat;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,8 +125,17 @@
   width: 100vw;
   text-align: center;
   position: relative;
-  object-fit: cover;
   z-index: 1;
+}
+
+.SplashContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
 }
 
 .splash-avatar {
@@ -177,3 +192,80 @@
   height: 120px;
   z-index: 2;
 }
+
+/*.splash-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.SplashContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+.splash-avatar {
+  position: absolute;
+  transform: rotate(-10deg);
+
+  top: 145px;
+  left: 60px;
+
+  width: 345px;
+  height: 300px;
+  z-index: 2;
+}
+
+.splash-h1 {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 76.29px;
+  color: #384242;
+
+  transform: rotate(-9deg);
+  position: absolute;
+
+  top: 110px;
+  left: 400px;
+  z-index: 2;
+}
+
+.splash-h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+  position: absolute;
+  color: #384242;
+
+  top: 210px;
+  left: 650px;
+
+  transform: rotate(5deg);
+  z-index: 2;
+}
+
+.splash-arrow {
+  position: absolute;
+  top: 265px;
+  left: 770px;
+
+  width: 85px;
+  height: 120px;
+  z-index: 2;
+}*/
