@@ -178,3 +178,52 @@
   height: 120px;
   z-index: 2;
 }
+
+/*===About Me Section===*/
+.AboutMe {
+  margin: 15px;
+}
+
+.ProfileMeBackground {
+  width: 260px;
+  height: 350px;
+  background: #e8dfd7;
+  border-radius: 17px;
+  border: 5px #c6b1a9 solid;
+
+  position: relative;
+
+  top: 40px;
+  left: 90px;
+}
+
+.ProfileTab {
+  width: 260px;
+  height: 55px;
+  background: linear-gradient(0deg, #c6b1a9 0%, #c6b1a9 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+
+  position: absolute;
+  top: 300px;
+}
+
+.ProfileText {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #343d3d;
+
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.ProfileImgLanchu {
+  width: 260px;
+  height: 310px;
+
+  position: absolute;
+}
