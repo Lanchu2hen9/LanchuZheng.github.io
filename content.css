@@ -104,6 +104,12 @@
   font-size: 12.8px;
 }
 
+.IconsCredit {
+  color: #f8f3ec;
+  font-size: 12.8px;
+  margin-top: 3px;
+}
+
 .FooterLine {
   position: absolute;
   left: 48.5%;
@@ -292,13 +298,11 @@
 .AboutMeIntro {
   /*Container for the About Me introduction paragraph and content, move me if you want to shift the content within.*/
   position: relative;
-  top: -225px;
-  left: 550px;
 }
 
 .AboutMeIntroBackground {
-  width: 46vw;
-  height: 45vh;
+  width: 50vw;
+  height: 260px;
 
   /*width: 500px;
   height: 200px;*/
@@ -307,4 +311,85 @@
   border-bottom-left-radius: 17px;
 
   position: absolute;
+  top: -225px;
+  left: 605px;
+}
+
+.AboutMeHeader {
+  position: absolute;
+
+  top: -343px;
+  left: 830px;
+}
+
+.IntroTextBox {
+  /*width: 46vw;
+  height: 27vh;
+
+  position: absolute;
+  top: 15px;
+  left: 30px;
+
+  display: flex;
+  align-items: center;*/
+  width: 46vw;
+  height: 27vh;
+
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.IntroText {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  word-wrap: break-word;
+  color: #343d3d;
+}
+
+.IntroButtonContainer {
+  position: absolute;
+  top: 160px;
+  left: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.EmailBtn {
+  width: 70px;
+  height: 70px;
+
+  left: 0px;
+  top: 0px;
+
+  position: absolute;
+  background: #61b3b3;
+  border-radius: 9999px;
+  border: 3px #343d3d solid;
+}
+
+.EmailIcon2 {
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.EmailBtn:hover {
+  width: 70px;
+  height: 70px;
+
+  left: 0px;
+  top: 0px;
+
+  position: absolute;
+  background: none;
+  border-radius: 9999px;
+  border: 3.5px #61b3b3 solid;
 }
