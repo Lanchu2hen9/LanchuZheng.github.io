@@ -292,18 +292,19 @@
 .AboutMeIntro {
   /*Container for the About Me introduction paragraph and content, move me if you want to shift the content within.*/
   position: relative;
-  /*top: ;
-  left: ;*/
+  top: -225px;
+  left: 550px;
 }
 
 .AboutMeIntroBackground {
-  width: 500px;
-  height: 200px;
+  width: 46vw;
+  height: 45vh;
+
+  /*width: 500px;
+  height: 200px;*/
   background: #e8dfd7;
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;
 
   position: absolute;
-  top: -200px;
-  left: 550px;
 }
