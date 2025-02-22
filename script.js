@@ -28,11 +28,11 @@ const LinkedInIcon = LinkedInBtn.querySelector(".LinkedInIcon");
 
 document.addEventListener("DOMContentLoaded", (event) => {
   LinkedInBtn.addEventListener("mouseenter", () => {
-    LinkedInIcon.src = "/indeximages/icons8-linkedin-128_Blue.png";
+    LinkedInIcon.src = "./indeximages/icons8-linkedin-128_Blue.png";
   });
 
   LinkedInBtn.addEventListener("mouseleave", () => {
-    LinkedInIcon.src = "/indeximages/icons8-linkedin-128.png";
+    LinkedInIcon.src = "./indeximages/icons8-linkedin-128.png";
   });
 });
 
@@ -41,10 +41,10 @@ const PortfolioIcon = PortfolioBtn.querySelector(".PortfolioIcon");
 
 document.addEventListener("DOMContentLoaded", (event) => {
   PortfolioBtn.addEventListener("mouseenter", () => {
-    PortfolioIcon.src = "/indeximages/icons8-folder-128_Blue.png";
+    PortfolioIcon.src = "./indeximages/icons8-folder-128_Blue.png";
   });
 
   PortfolioBtn.addEventListener("mouseleave", () => {
-    PortfolioIcon.src = "/indeximages/icons8-folder-128.png";
+    PortfolioIcon.src = "./indeximages/icons8-folder-128.png";
   });
 });
