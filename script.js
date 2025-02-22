@@ -48,3 +48,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     PortfolioIcon.src = "./indeximages/icons8-folder-128.png";
   });
 });
+
+/*Fuck you javascript work for me bitch.*/
